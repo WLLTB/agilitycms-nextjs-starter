@@ -39,7 +39,7 @@ export default async function RootLayout({children}: {children: React.ReactNode}
 								<SiteHeader {...{header}} />
 
 								<main className={`flex-grow`}>{children}</main>
-								<SiteFooter />
+{/* 								<SiteFooter /> */}
 							</div>
 						</div>
 					)}
