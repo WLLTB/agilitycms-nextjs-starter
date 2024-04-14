@@ -33,10 +33,10 @@ export default async function RootLayout({children}: {children: React.ReactNode}
 					{isPreviewRequested && <LoadingWidget message="Loading Preview Mode" />}
 					{!isPreviewRequested && (
 						<div id="site">
-							<PreviewBar {...{isDevelopmentMode, isPreview}} />
+{/* 							<PreviewBar {...{isDevelopmentMode, isPreview}} /> */}
 
 							<div className="flex flex-col min-h-screen">
-{/* 								<SiteHeader {...{header}} /> */}
+								<SiteHeader {...{header}} />
 
 								<main className={`flex-grow`}>{children}</main>
 								<SiteFooter />
