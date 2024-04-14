@@ -24,6 +24,7 @@ export default async function RootLayout({children}: {children: React.ReactNode}
 	return (
 		<html lang="en" className={inter.className}>
 			<head>
+				<link rel="canonical" href="https://beautiful-girl-hub.netlify.app"/>
 					<meta name="google-site-verification" content="_FVe9a0ZIZ9Hb8UMTkIQcSGUbuIoWIc3SDLYSNiOscg" />	
 				</head>
 			<body data-agility-guid={process.env.AGILITY_GUID}>
