@@ -24,6 +24,8 @@ export default async function RootLayout({children}: {children: React.ReactNode}
 	return (
 		<html lang="en" className={inter.className}>
 			<body data-agility-guid={process.env.AGILITY_GUID}>
+				<script src="https://beamanalytics.b-cdn.net/beam.min.js" data-token="89f58f8a-af1c-4321-b708-7379d4ffb867" async></script>
+
 				<div id="site-wrapper">
 					{isPreviewRequested && <LoadingWidget message="Loading Preview Mode" />}
 					{!isPreviewRequested && (
