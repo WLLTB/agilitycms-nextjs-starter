@@ -24,11 +24,11 @@ export default async function RootLayout({children}: {children: React.ReactNode}
 	return (
 		<html lang="en" className={inter.className}>
 			<head>
+				<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4592484312606095" crossorigin="anonymous"></script>
 				<link rel="canonical" href="https://beautiful-girl-hub.netlify.app"/>
 					<meta name="google-site-verification" content="_FVe9a0ZIZ9Hb8UMTkIQcSGUbuIoWIc3SDLYSNiOscg" />	
 				</head>
 			<body data-agility-guid={process.env.AGILITY_GUID}>
-				<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4592484312606095" crossorigin="anonymous"></script>
 				<script src="https://beamanalytics.b-cdn.net/beam.min.js" data-token="89f58f8a-af1c-4321-b708-7379d4ffb867" async></script>
 
 				<div id="site-wrapper">
